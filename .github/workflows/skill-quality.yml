@@ -28,7 +28,7 @@ jobs:
       # Pin to a specific LTS minor so Node point releases cannot
       # spontaneously break CI without a commit in this repository.
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: '20.18'
           # Keep CI behavior explicit even if package.json metadata changes later.
